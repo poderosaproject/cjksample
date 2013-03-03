@@ -1,0 +1,47 @@
+EUC-KR test
+
+Border lines must be aligned.
+0        1         2         3         4         5         6         7         8
+1--------0---------0---------0---------0---------0---------0---------0---------0
+¦£¦¡¦¡¦¡¦¨¦¡¦¡¦¡¦½¦¡¦¡¦¡¦¤
+¦¢ ABCD ¦¢ ABCD ¦­ ABCD ¦¢
+¦§¦¡¦¡¦¡¦«¦¡¦¡¦¡¦À¦¡¦¡¦¡¦©
+¦¢ ùÓí® ¦¢ ùÓí® ¦­ ùÓí® ¦¢
+¦¼¦¬¦¬¦¬¦»¦¬¦¬¦¬¦¶¦¬¦¬¦¬¦¾
+¦¢ ABCD ¦¢ ABCD ¦­ ABCD ¦¢
+¦¦¦¡¦¡¦¡¦ª¦¡¦¡¦¡¦¿¦¡¦¡¦¡¦¥
+¦®¦¬¦¬¦¬¦³¦¬¦¬¦¬¦¸¦¬¦¬¦¬¦¯
+¦­ ABCD ¦­ ABCD ¦¢ ABCD ¦­
+¦²¦¬¦¬¦¬¦¶¦¬¦¬¦¬¦»¦¬¦¬¦¬¦´
+¦­ ùÓí® ¦­ ùÓí® ¦¢ ùÓí® ¦­
+¦·¦¡¦¡¦¡¦À¦¡¦¡¦¡¦«¦¡¦¡¦¡¦¹
+¦­ ABCD ¦­ ABCD ¦¢ ABCD ¦­
+¦±¦¬¦¬¦¬¦µ¦¬¦¬¦¬¦º¦¬¦¬¦¬¦°
+
+Vertical line (|) must be aligned over two lines.
+|      | Blank with ASCII space x 6.
+|¡¡¡¡¡¡| Blank with U+3000 x 3.
+
+Right 'X' must be placed at right edge on 80 column console.
+0        1         2         3         4         5         6         7         8
+1--------0---------0---------0---------0---------0---------0---------0---------0
+                                                                               X
+
+Right 'í®' must be placed at the top of the next line on 80 column console.
+                                                                             ùÓí®
+
+EUC-KR kanji sample 1:
+äîÍëÙýÞäåÚî¥ä²î¥ä²ÓßèØù¾ý¨ä«ì¤áæëÜìÑì¤ÛÚñ²ìÑì¤×ÊèØÞÅÚÅîú×Êí­Ú¤ñýèØà÷ÞÀÜôàãâÄÞÀÜôÊßÐþèÙÜôÏ¤
+
+On 80 column console, above line must be displayed like:
+äîÍëÙýÞäåÚî¥ä²î¥ä²ÓßèØù¾ý¨ä«ì¤áæëÜìÑì¤ÛÚñ²ìÑì¤×ÊèØÞÅÚÅîú×Êí­Ú¤ñýèØà÷ÞÀÜôàãâÄÞÀÜô
+ÊßÐþèÙÜôÏ¤
+
+EUC-KR hangeul sample:
+¾î´À»õ±æ¾îÁø±×¸²ÀÚ¸¦µû¶ó¼­¶¥°Å¹ÌÁø¾îµÒ¼ÓÀ»±×´ë¿Í°È°íÀÖ³×¿ä¼ÕÀ»¸¶ÁÖÀâ°í±×¾ðÁ¦±îÁö¶óµµÇÔ²²ÀÖ´Â°Í¸¸À¸·Î´«¹°ÀÌ³ª´Â°É¿ä
+
+On 80 column console, above line must be displayed like:
+¾î´À»õ±æ¾îÁø±×¸²ÀÚ¸¦µû¶ó¼­¶¥°Å¹ÌÁø¾îµÒ¼ÓÀ»±×´ë¿Í°È°íÀÖ³×¿ä¼ÕÀ»¸¶ÁÖÀâ°í±×¾ðÁ¦±îÁö
+¶óµµÇÔ²²ÀÖ´Â°Í¸¸À¸·Î´«¹°ÀÌ³ª´Â°É¿ä
+
+

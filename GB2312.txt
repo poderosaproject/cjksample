@@ -1,0 +1,39 @@
+GB2312 test
+
+Border lines must be aligned.
+0        1         2         3         4         5         6         7         8
+1--------0---------0---------0---------0---------0---------0---------0---------0
+┌───┬───┰───┐
+│ ABCD │ ABCD ┃ ABCD │
+├───┼───╂───┤
+│ 汉字 │ 汉字 ┃ 汉字 │
+┝━━━┿━━━╋━━━┥
+│ ABCD │ ABCD ┃ ABCD │
+└───┴───┸───┘
+┏━━━┳━━━┯━━━┓
+┃ ABCD ┃ ABCD │ ABCD ┃
+┣━━━╋━━━┿━━━┫
+┃ 汉字 ┃ 汉字 │ 汉字 ┃
+┠───╂───┼───┨
+┃ ABCD ┃ ABCD │ ABCD ┃
+┗━━━┻━━━┷━━━┛
+
+Vertical line (|) must be aligned over two lines.
+|      | Blank with ASCII space x 6.
+|　　　| Blank with U+3000 x 3.
+
+Right 'X' must be placed at right edge on 80 column console.
+0        1         2         3         4         5         6         7         8
+1--------0---------0---------0---------0---------0---------0---------0---------0
+                                                                               X
+
+Right '字' must be placed at the top of the next line on 80 column console.
+                                                                             汉字
+
+GB2312 sample.
+哀公问社于宰我宰我对曰夏后氏以松殷人以柏周人以栗曰使民战栗子闻之曰成事不说遂事不谏既往不咎
+
+On 80 column console, above line must be displayed like:
+哀公问社于宰我宰我对曰夏后氏以松殷人以柏周人以栗曰使民战栗子闻之曰成事不说遂事不
+谏既往不咎
+
